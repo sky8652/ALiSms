@@ -1,0 +1,29 @@
+{
+    "name": "xiaolaomen/alisms",
+    "description": "基于阿里云的短信",
+    "keywords": [
+        "php",
+        "swoole",
+        "hyperf",
+        "sms",
+        "alibaba"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiaolaomen",
+            "email": "1185802277@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "XiaoLaoMen\\ALiSms\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0",
+        "hyperf/di": "~1.1.0",
+        "hyperf/guzzle": "^1.1"
+    }
+}
