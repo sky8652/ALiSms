@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace XiaoLaoMen\ALiSms;
+namespace XiaoLaoMen\ALiSms\Send;
 
 use Hyperf\Di\Annotation\Inject;
 use Hyperf\Guzzle\ClientFactory;
